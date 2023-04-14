@@ -1,10 +1,10 @@
-
+import React from 'react';
 import './App.css';
 
 const App = () => {
   return (
     < >
-    <header>Hello</header>
+    <h2>React Component</h2>
       
     </>
   );
