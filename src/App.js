@@ -3,6 +3,7 @@ import React from "react";
 import "./App.css";
 import { Container, Navbar } from "react-bootstrap";
 import Counter from "./Counter/Counter";
+import RegistrationForm from "./components/RegistrationForm";
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       </Container>
 
     </Navbar>
-    <Counter />
+    {/*<Counter /> */}
+    <RegistrationForm />
       
     </>
   );
