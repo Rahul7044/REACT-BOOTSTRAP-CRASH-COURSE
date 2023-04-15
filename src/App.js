@@ -4,6 +4,7 @@ import "./App.css";
 import { Container, Navbar } from "react-bootstrap";
 import Counter from "./Counter/Counter";
 import RegistrationForm from "./components/RegistrationForm";
+import UserList from "./components/UserList";
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
 
     </Navbar>
     {/*<Counter /> */}
-    <RegistrationForm />
+    {/*<RegistrationForm /> */}
+    <UserList />
       
     </>
   );
