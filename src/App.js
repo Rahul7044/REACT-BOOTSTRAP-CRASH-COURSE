@@ -2,6 +2,7 @@ import React from "react";
 
 import "./App.css";
 import { Container, Navbar } from "react-bootstrap";
+import Counter from "./Counter/Counter";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       </Container>
 
     </Navbar>
+    <Counter />
       
     </>
   );
